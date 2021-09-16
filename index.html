@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id = "main-header"> 
+    <h1> Frontend with Unclebigbay </h1>
+    <nav id = "main-navbar"> 
+      <ul class = "nav-list"> 
+        <li class = "nav-list-item"> <a href = "#"> Home </a> </li>
+        <li class = "nav-list-item"> <a href = "#"> About </a> </li>
+        <li class = "nav-list-item"> <a href = "#"> Contact </a> </li>
+      </ul>
+    </nav>
+  </header>
+  <main> 
+    <form id = "login-form" name = "UBB-sign-up-form"method = "post" autocomplete = "on">  
+      <fieldset> 
+        <legend> Personal Info </legend>
+          <label class = "pI-label" for = "fName"> First Name </label>
+          <br>
+          <input type = "text" id = "fName">
+          <br>
+          <label class = "pI-label" for = "sName"> Surame </label>
+          <br>
+          <input type = "text" id = "sName">
+          <br>
+          <label class = "pI-label" for = "email"> Email </label>
+          <br>
+          <input type = "text" id = "fName">
+          <br>
+      </fieldset>
+      <fieldset> 
+        <legend> Preference </legend>
+        <p> What are you looking for in this program? </p>
+          <input type = "radio" id = "mentor" name = "purpose" value = "mentor">
+          <label for = "mentor"> be a mentor </label>
+          <input type = "radio" id = "mentee" name = "purpose" value = "mentee">
+          <label for = "mentee"> be a mentee </label>
+        <p> What stack do you want to learn? </p>
+          <input type = "radio" id = "frontend" name = "stack" value = "frontend">
+          <label for = "mentor"> frontend </label>
+          <input type = "radio" id = "backtend" name = "stack" value = "backend">
+          <label for = "mentor"> backend </label>
+          <input type = "radio" id = "ui-ux" name = "stack" value = "UI-UX">
+          <label for = "mentor"> UI/UX </label>
+      </fieldset>
+      <input type = "submit" value = "Submit">
+    </form>
+  </main>
+  <footer> </footer>
+</body>
+</html>
